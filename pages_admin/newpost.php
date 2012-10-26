@@ -117,6 +117,7 @@ if(isset($_POST['Submit'])) {
 	$newfile = str_replace('Í','I',$newfile);
 	$newfile = str_replace('Ó','O',$newfile);
 	$newfile = str_replace('Ú','U',$newfile);
+	$newfile = str_replace('&','y',$newfile);
 
 
 	//Make sure chosen filename doesn't exist
